@@ -1,0 +1,69 @@
+*{padding: 0;
+margin:0;
+box-sizing: border-box;
+font-family:sans-serif;
+}
+
+header{
+	width:100%;
+	height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("_MG_4306.jpg");
+    background-position:center;
+    background-size:cover;
+
+   
+}
+
+nav{display:flex;
+	padding:40px 100px;
+align-items: center;
+text-transform: uppercase;
+font-size: 1.5rem;}
+nav h1{
+color: white;
+transition: 1s;
+} 
+nav h1:hover{
+	color:skyblue;
+}
+nav ul{text-align: right;
+display: inline;
+list-style:none;
+flex:1;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+	font-size: 1rem;
+	transition: 1s;
+	color: white;
+
+}
+nav ul li a{text-decoration: none;
+color: white;
+transition: 1s;}
+nav ul li a:hover{color:deepskyblue;}
+
+
+
+ .headline{color:#fff;
+ 	text-align: center;margin-top: 15%;
+ 	text-transform: uppercase;
+}
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+ {
+ 	header{height: 50vh;}
+ }
+
+.headline span{font-size: 5rem;
+color: white;
+opacity: 0.5;}
+
+section {width: 100%;
+height: 100vh;
+background-color: rgba(0,0,0,.5);
+}
+section img{width: 300px;
+}
